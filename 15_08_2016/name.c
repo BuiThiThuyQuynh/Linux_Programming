@@ -4,6 +4,6 @@ void name()
 {
 	char name[30];
 	printf("Enter name: \n");
-	scanf("%s", name);
+	scanf("%[^\n]", name);
 	printf("Name: %s\n", name);
 }
